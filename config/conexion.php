@@ -1,0 +1,1 @@
+<?php $conn=new mysqli('localhost','root','','tienda_parcial'); if($conn->connect_error){die('Error BD');} ?>

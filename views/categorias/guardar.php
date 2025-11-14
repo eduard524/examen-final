@@ -1,0 +1,1 @@
+<?php include '../../config/database.php'; $n=$_POST['nombre']; $conn->query("INSERT INTO categorias(nombre)VALUES('$n')"); header('Location: listar.php'); ?>

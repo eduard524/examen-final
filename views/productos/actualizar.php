@@ -1,0 +1,1 @@
+<?php include '../../config/database.php'; $id=$_POST['id']; $n=$_POST['nombre']; $p=$_POST['precio']; $conn->query("UPDATE productos SET nombre='$n', precio=$p WHERE id=$id"); header('Location: listar.php'); ?>

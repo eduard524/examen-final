@@ -1,0 +1,1 @@
+<?php include '../../config/database.php'; $n=$_POST['nombre']; $p=$_POST['precio']; $conn->query("INSERT INTO productos(nombre,precio)VALUES('$n',$p)"); header('Location: listar.php'); ?>

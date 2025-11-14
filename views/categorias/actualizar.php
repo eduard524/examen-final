@@ -1,0 +1,1 @@
+<?php include '../../config/database.php'; $id=$_POST['id']; $n=$_POST['nombre']; $conn->query("UPDATE categorias SET nombre='$n' WHERE id=$id"); header('Location: listar.php'); ?>

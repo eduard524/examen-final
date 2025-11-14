@@ -1,0 +1,5 @@
+CREATE DATABASE tienda_parcial;
+USE tienda_parcial;
+
+CREATE TABLE categorias(id INT AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(100));
+CREATE TABLE productos(id INT AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(100), precio DECIMAL(10,2));
